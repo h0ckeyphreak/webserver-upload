@@ -4,8 +4,8 @@ First Python/Flask project - file upload server with (sorta)authentication
 usage: server.py [-h] -p PORT [-o OUTFILE]
 
 options:
-  -h, --help            show this help message and exit
-  -p PORT, --port PORT  Assign a port for the web_uploader
+  -h, --help            show this help message and exit</br>
+  -p PORT, --port PORT  Assign a port for the web_uploader</br>
   -o OUTFILE, --outfile OUTFILE
                         Destination for uploaded file(s)
                         
